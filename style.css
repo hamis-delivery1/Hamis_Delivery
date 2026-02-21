@@ -1,0 +1,248 @@
+@media (max-width: 480px) {
+    .floating-tawsila {
+        font-size: 12px;
+        padding: 7px 10px;
+        border-radius: 16px;
+    }
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Cairo', sans-serif;
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    background: linear-gradient(135deg, #000000, #1a1a1a);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background:
+        linear-gradient(135deg, rgba(0, 0, 0, 0.432), rgba(0, 0, 0, 0.432)),
+        url("logo.jpg") no-repeat;
+    background-position: center 45%;
+    background-size: 360px 790px;
+
+    width: 360px;
+    padding: 30px 25px;
+    border-radius: 20px;
+    box-shadow: 0 0 30px rgba(218,165,32,0.25);
+    text-align: center;
+}
+
+
+
+@keyframes fadeUp {
+    from {opacity:0; transform:translateY(40px);}
+    to {opacity:1; transform:translateY(0);}
+}
+
+.logo {
+    font-size: 32px;
+    font-weight: 700;
+    color: gold;
+    margin-bottom: 5px;
+}
+
+.slogan {
+    font-size: 14px;
+    color: #ccc;
+    margin-bottom: 25px;
+}
+
+textarea, input, select {
+    width: 100%;
+    background: #1c1c1c;
+    border: 1px solid #333;
+    border-radius: 12px;
+    padding: 12px;
+    margin-bottom: 12px;
+    color: #fff;
+    font-size: 14px;
+}
+
+textarea {
+    resize: none;
+    height: 80px;
+}
+
+textarea::placeholder,
+input::placeholder {
+    color: #888;
+}
+
+select {
+    color: #aaa;
+}
+
+button {
+    width: 100%;
+    background: linear-gradient(135deg, gold, #c89b3c);
+    border: none;
+    border-radius: 14px;
+    padding: 14px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    transform: scale(1.03);
+    box-shadow: 0 0 15px rgba(255,215,0,0.6);
+}
+
+.footer {
+    margin-top: 15px;
+    font-size: 12px;
+    color: #777;
+}
+
+#address {
+    height: 90px;
+}
+
+
+.logo-img {
+    width: 220px;
+    margin-bottom: 10px;
+}
+
+.top-btn {
+    display: block;
+    background: linear-gradient(135deg, #2c2c2c, #000);
+    color: gold;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 12px;
+    font-size: 15px;
+    margin-bottom: 15px;
+    border: 1px solid gold;
+    transition: 0.3s;
+}
+
+.top-btn:hover {
+    background: gold;
+    color: #000;
+}
+
+
+.call-box {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 12px;
+}
+
+.call-box a {
+    flex: 1;
+    background: #1c1c1c;
+    color: gold;
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration: none;
+    border: 1px solid #333;
+    transition: 0.3s;
+}
+
+.call-box a:hover {
+    background: gold;
+    color: #000;
+}
+
+
+.vehicle-box {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 12px;
+}
+
+.vehicle-option {
+    flex: 1;
+    background: #1c1c1c;
+    border: 1px solid #333;
+    border-radius: 12px;
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 14px;
+}
+
+.vehicle-option input {
+    display: none;
+}
+
+.vehicle-option:hover {
+    border-color: gold;
+}
+
+.vehicle-option input:checked + span {
+    color: gold;
+}
+
+.back-arrow {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 38px;
+    height: 38px;
+    background: #1c1c1c;
+    border: 1px solid gold;
+    border-radius: 10px;
+    color: gold;
+    font-size: 20px;
+    text-decoration: none;
+    margin-bottom: 12px;
+    transition: 0.3s;
+}
+
+.back-arrow:hover {
+    background: gold;
+    color: #000;
+    transform: translateX(-3px);
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+.social-links a {
+    background: #1c1c1c;
+    color: gold;
+    text-decoration: none;
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-size: 12px;
+    border: 1px solid #333;
+    transition: 0.3s;
+}
+
+.social-links a:hover {
+    background: gold;
+    color: #000;
+}
+
+.designer-link {
+    color: gold;
+    text-decoration: none;
+    font-size: 11px;
+}
+
+.designer-link:hover {
+    text-decoration: underline;
+}
+
+.no-bg {
+    background: #111 !important;
+}

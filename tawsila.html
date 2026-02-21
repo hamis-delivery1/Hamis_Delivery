@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>توصيلة | هاميس</title>
+
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="card">
+
+    <a href="index.html" class="back-arrow">←</a>
+
+
+    <div class="logo">توصيلة</div>
+    <div class="slogan">اطلب مشوارك بسهولة</div>
+
+    <!-- اسم العميل -->
+    <input id="clientName" type="text" placeholder="اسم العميل">
+
+    <!-- رقم الهاتف -->
+    <input id="phone" type="tel" placeholder="رقم الموبايل">
+
+    <!-- اختيار وسيلة التوصيل -->
+    <div class="vehicle-box">
+        <label class="vehicle-option">
+            <input type="radio" name="vehicle" value="موتوسيكل">
+            <span>🏍️ موتوسيكل</span>
+        </label>
+
+        <label class="vehicle-option">
+            <input type="radio" name="vehicle" value="توك توك">
+            <span>🛺 توك توك</span>
+        </label>
+    </div>
+
+    <!-- من -->
+    <input id="from" type="text" placeholder="من (مكان الاستلام)">
+
+    <!-- إلى -->
+    <input id="to" type="text" placeholder="إلى (مكان التسليم)">
+
+    <!-- تفاصيل -->
+    <textarea id="details" placeholder="تفاصيل المشوار (طرد – شخص – مستعجل...)"></textarea>
+
+    <!-- اختيار رقم واتساب -->
+    <select id="whatsappChoice">
+        <option value="">اختار رقم واتساب</option>
+        <option value="201090972373">واتساب 1</option>
+        <option value="201152385955">واتساب 2</option>
+        <option value="201148147172">واتساب 3</option>
+        <option value="201148153430">واتساب 4</option>
+    </select>
+
+    <button id="sendBtn">اطلب توصيلة</button>
+
+    <div class="social-links">
+    <a href="https://www.facebook.com/profile.php?id=61586084496315&rdid=kxWKQmvqlhJumZ3u&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F14LgHsyhoYN%2F#" target="_blank">فيسبوك</a>
+    <a href="https://wa.me/201148147172" target="_blank">واتساب</a>
+</div>
+
+    <div class="footer">
+    © 2026 Hamis Delivery <br>
+   تصميم:
+<a href="designer.html" class="designer-link">
+    معاذ بهاء البدوي
+</a>
+
+</div>
+
+<script src="tawsila.js"></script>
+</body>
+</html>
